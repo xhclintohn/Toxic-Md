@@ -24,7 +24,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("ENZO-MD bot Restarting ⚽");
+    repondre("Toxic-MD bot Restarting ☣️");
 
   exec("pm2 restart all");
   
