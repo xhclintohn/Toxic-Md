@@ -26,7 +26,7 @@ This is a very Toxic Bot so handle it with alot of caution
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰 Clinton  "><img src="https://img.shields.io/badge/Contact Dev Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝐇𝐢 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧  "><img src="https://img.shields.io/badge/Contact Dev Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
