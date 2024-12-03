@@ -37,7 +37,13 @@
       "description":"put A name for your bot",
       "value":"𝙏𝙤𝙭𝙞𝙘 𝙈𝘿",
       "required":false
-
+    } ,
+     "AUTO_READ_MESSAGES" : {
+    
+      "description":"to automatically blue tick messages",
+      "value":"yes",
+      "required":false
+       
     } ,
      "BOT_MENU_LINKS" : {
     
