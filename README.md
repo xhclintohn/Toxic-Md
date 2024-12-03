@@ -35,6 +35,11 @@ This is a very Toxic Bot so handle it with alot of caution
 [![WHATSAPP](https://img.shields.io/badge/Support%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LQL2RFbHsdjxfmVxrTUD) 
 ---------
 
+## ``Join Our Official Channel``
+[![WHATSAPP](https://img.shields.io/badge/Official%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19) 
+---------
+
+
 ## ```⚡STEPS TO DEPLOY BOT⚡```
 
 1. ````⭐Fork this repo⭐````
