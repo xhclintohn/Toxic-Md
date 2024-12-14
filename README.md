@@ -6,7 +6,7 @@
 
 <h1 align="center">Toxic-MD</h1>
 <p align="center">
-  <a href="https://github.com/xhclintohn"><img src="http://readme-tyng-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Tocic+BOT+Multi+Device;Base+ori+by+ImYanXiao;Recode+By+xhclinton;Give+star+and+forks+this+Repo+:D;Follow+My+Github+acc" alt="ʘᴗʘ">
+  <a href="https://github.com/xhclintohn"><img src="http://readme-tyng-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Tocic+BOT+Multi+Device;Base+ori+by+ImYanXiao;Recode+By+xhclinton;Give+star+and+forks+this+Repo+:D;Follow+My+Github+acc" alt=":)">
 </p>
 
 <p align="center">
@@ -18,7 +18,10 @@
 
 ## ````PLEASE NOTE````
 
-This is a very Toxic Bot so handle it with alot of caution
+⚠️ WARNING ⚠️
+❗ Use this service wisely.
+❗ Any form of abuse will be dealt with firmly.
+❗ Contact official contacts for more information.
 
 ---------
 
