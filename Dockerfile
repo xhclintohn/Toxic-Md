@@ -6,14 +6,20 @@ RUN apt-get update && \
   imagemagick \
   webp && \
   apt-get upgrade -y && \
+  npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
+  
+RUN git clone https://github.com/xhclintohn/Toxic-MD  /root/Toxic-MD
+WORKDIR /root/Toxic-MD/
+
 
 COPY package.json .
-
-RUN npm install && npm install qrcode-terminal
+RUN npm install pm2 -g
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "start"]
+CMD ["npm", "run" , "toxic.js"]
+
